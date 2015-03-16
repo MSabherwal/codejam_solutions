@@ -33,8 +33,13 @@ build/
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 
-#For output files:
+#For input & output files:
 
+*.in
 *.out
-
 *.DS_Store
+
+#allow the samples
+!sample.in
+!sample.out
+
